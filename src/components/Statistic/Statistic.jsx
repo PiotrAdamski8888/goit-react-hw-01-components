@@ -1,12 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import css from './statistic.module.css';
+import { getRandomColor } from 'utils/getRandomColor';
 
-const getRandomColor = () => {
-  return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
-};
 
-const Statistics = ({ title, stats }) => (
+
+ export const Statistics = ({ title, stats }) => (
   <section className={css.statistics}>
     {title && <h2 className={css.title}>{title}</h2>}
     <ul className={css.statList}>
@@ -35,4 +34,4 @@ Statistics.propTypes = {
   ).isRequired
 };
 
-export default Statistics;
+
