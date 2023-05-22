@@ -19,10 +19,10 @@
   display: flex;
   align-items: center;
   margin-bottom: 10px;
-  width: 285px; /* Dodana szerokość */
-  border: 1px solid #ccc; /* Dodane obramowanie */
-  background-color: #f5f5f5; /* Dodane tło */
-  padding: 10px; /* Dodane wewnętrzne marginesy */
+  width: 285px; 
+  border: 1px solid #ccc; 
+  background-color: #f5f5f5; 
+  padding: 10px; 
 }
 
 .status {
